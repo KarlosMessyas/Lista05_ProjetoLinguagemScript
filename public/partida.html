@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Título da partida</h1>
+    <p>
+        <span class="strong">Local:</span> <span id="local">Local</span>
+        <span class="strong">Data:</span> <span id="dataDoEvento">Data</span>
+        <span class="strong">Horário:</span> <span id="horario">Horário</span>
+    </p>
+    <h2>Lista de jogadores</h2>
+    <ul id="listaDeJogadores">
+
+    </ul>
+    <form id="formAdicionarJogador" method="post">
+        <div>
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="nome" name="nome" required />
+        </div>
+        <div>
+            <label for="telefone">
+                Telefone:
+            </label>
+            <input type="text" id="telefone" name="telefone" required />
+        </div>
+        <input type="submit"  />
+    </form>
+    <script src="../../scripts/paginaPartida.js"></script>
+</body>
+</html>

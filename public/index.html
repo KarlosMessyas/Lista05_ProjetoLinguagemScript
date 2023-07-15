@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rachinha da Galera</h1>
+    <form action="/partida" method="POST" id="formEnviarPartida">
+        <div class="container">
+            <div class="boxInput"> 
+                <label for="inputTitulo">
+                    Título
+                </label>
+                <input type="text" name="titulo" placeholder="Título do rachinha" required id="inputTitulo" />
+            </div>
+            <div class="boxInput">
+                <label for="inputLocal">
+                    Local
+                </label>
+                <input type="text" name="local" placeholder="Local do rachinha" required  id="inputLocal" />
+            </div>
+            <div class="boxInput">
+                <label for="inputData">
+                    Data
+                </label>
+                <input type="date" name="dataEvento" placeholder="Data do rachinha" required  id="inputData" />
+            </div>
+            <div class="boxInput">
+                <label for="inputHorario">
+                    Horário
+                </label>
+                <input type="time" name="horario" placeholder="Horário do rachinha" required  id="inputHorario" />
+            </div>
+            <button type="submit" value="Criar">
+                Adicionar
+            </button>
+        </div>
+    </form>
+    <h2>Rachinhas agendados</h2>
+    <ul id="listaDePartidas">
+        
+    </ul>
+    <script src="./scripts/paginaInicial.js"></script>
+</body>
+</html>

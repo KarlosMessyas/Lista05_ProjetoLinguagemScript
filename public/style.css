@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+body{
+	background-image: url("bg2.jpg");
+	display:flex;
+	flex-direction:column;
+	font-family:Montserrat, sans-serif;
+	font-size: 1em;
+	margin:0;
+	max-height:100vh;
+	padding:5%;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+label{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+input{
+    border-radius: 6px;
+    height: 25px;
+}
+
+button{
+    background-color: white;
+    color: #1F1F1F;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+button:hover{
+    background-color: rgb(12, 167, 12);
+    transition: 200ms;
+    color: white;
+}
+
+#botaoExcluir{
+    background-color: white;
+    color: #1F1F1F;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 6px;
+    transition: 200ms;
+}
+
+#botaoExcluir:hover{
+    background-color: rgb(207, 22, 5);
+    transition: 200ms;
+    color: white;
+}
+
+.boxInput{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    margin: 20px;
+    font-size: 18px;
+    background-color: #1d67f1;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 200ms;
+}
+
+li:hover{
+    box-shadow: 3px 2px 3px black;
+    transition: 200ms;
+}
